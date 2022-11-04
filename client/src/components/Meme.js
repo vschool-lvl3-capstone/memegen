@@ -12,7 +12,7 @@ export default function Meme() {
     const [allMemes, setAllMemes] = useState([])
 
 
-//  our useEffect function to make out api call
+//  our useEffect function to make our api call
     
     useEffect(() => {
         console.log("useffect triggered")
