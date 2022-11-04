@@ -47,6 +47,7 @@ export default function Meme() {
         }))
     }
 
+// render buttons after last div before main
 
     return (
         <main>
@@ -79,7 +80,7 @@ export default function Meme() {
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
-            <button>SAVE MY CREATIVE MEME</button>
+            
         </main>
     )
 }
