@@ -47,7 +47,7 @@ export default function Meme() {
         }))
     }
 
-
+// render buttons below last Div element before the Main element
     return (
         <main>
             <div className="form">
@@ -79,8 +79,7 @@ export default function Meme() {
                 <h2 className="meme--text top">{meme.topText}</h2>
                 <h2 className="meme--text bottom">{meme.bottomText}</h2>
             </div>
-            <button>SAVE MY CREATIVE MEME</button>
+            
         </main>
     )
 }
-//yayayayaya
